@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h2>{{replay.player}}</h2>
+<x-event-strip id="strip"></x-event-strip>
+<pre>{% for noun in nouns %}{{noun}}
+{% endfor %}
+</pre>
+<ul>
+    {% for event in replay.events %}
+    <li>{{event.frame}} {{event.verb}} {{event.noun}} {{event.fullname}}</li>
+    {% endfor %}
+</ul>
+<script>
+    const replay = {{replay_json|safe}};
+    document.addEventListener('DOMContentLoaded', () => {
+        strip.replay = replay;
+    });
+</script>
+{% endblock %}

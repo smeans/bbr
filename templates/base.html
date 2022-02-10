@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>build-build-revolution for Starcraft 2: {{title}}</title>
+        <link rel="stylesheet" href="/s/css/style.css">
+        <script src="/s/js/ph.js"></script>
+        <script src="/s/js/main.js"></script>
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <ph-include src="/s/html/bbr.html"></ph-include>
+        <header>
+            <h1>{{title}}</h1>
+            {% block header %}{% endblock %}
+        </header>
+        <main>
+            {% block main %}{% endblock %}
+        </main>
+        <footer>
+            {% block footer %}
+            &copy;2022 Scott Means - <a href="/credits">credits</a></footer>
+            {% endblock %}
+    </body>
+</html>
