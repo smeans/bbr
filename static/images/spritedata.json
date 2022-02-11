@@ -1,6 +1,6 @@
 {"frames": {
 
-"Adept.jpg":
+"Adept.png":
 {
 	"frame": {"x":0,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AdeptPiercingAttack.jpg":
+"AdeptPiercingAttack.png":
 {
 	"frame": {"x":76,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AdrenalGlands.jpg":
+"AdrenalGlands.png":
 {
 	"frame": {"x":152,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -24,7 +24,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AirArmor1.jpg":
+"AirArmor1.png":
 {
 	"frame": {"x":228,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -32,7 +32,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AirArmor2.jpg":
+"AirArmor2.png":
 {
 	"frame": {"x":304,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -40,7 +40,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AirArmor3.jpg":
+"AirArmor3.png":
 {
 	"frame": {"x":380,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -48,7 +48,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AirWeapons1.jpg":
+"AirWeapons1.png":
 {
 	"frame": {"x":456,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -56,7 +56,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AirWeapons2.jpg":
+"AirWeapons2.png":
 {
 	"frame": {"x":532,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -64,7 +64,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AirWeapons3.jpg":
+"AirWeapons3.png":
 {
 	"frame": {"x":608,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -72,7 +72,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AnabolicSynthesis.jpg":
+"AnabolicSynthesis.png":
 {
 	"frame": {"x":684,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -80,7 +80,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AnionPulseCrystals.jpg":
+"AnionPulseCrystals.png":
 {
 	"frame": {"x":760,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -88,7 +88,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Archon.jpg":
+"Archon.png":
 {
 	"frame": {"x":836,"y":0,"w":76,"h":76},
 	"rotated": false,
@@ -96,7 +96,111 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Armory.jpg":
+"Armory.png":
+{
+	"frame": {"x":912,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Assimilator.png":
+{
+	"frame": {"x":988,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"AutoTurret.png":
+{
+	"frame": {"x":1064,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Baneling.png":
+{
+	"frame": {"x":1140,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"BanelingNest.png":
+{
+	"frame": {"x":1216,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Banshee.png":
+{
+	"frame": {"x":1292,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Barracks.png":
+{
+	"frame": {"x":1368,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"BarracksReactor.png":
+{
+	"frame": {"x":1444,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"BarracksTechLab.png":
+{
+	"frame": {"x":1520,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Battlecruiser.png":
+{
+	"frame": {"x":1596,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"BattleHellion.png":
+{
+	"frame": {"x":1672,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"BehemothReactor.png":
+{
+	"frame": {"x":1748,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Blink.png":
+{
+	"frame": {"x":1824,"y":0,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"BosonicCore.png":
 {
 	"frame": {"x":0,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -104,7 +208,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Assimilator.jpg":
+"Broodling.png":
 {
 	"frame": {"x":76,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -112,7 +216,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"AutoTurret.jpg":
+"Bunker.png":
 {
 	"frame": {"x":152,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -120,7 +224,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Baneling.jpg":
+"Carrier.png":
 {
 	"frame": {"x":228,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -128,7 +232,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"BanelingNest.jpg":
+"CentrifugalHooks.png":
 {
 	"frame": {"x":304,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -136,7 +240,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Banshee.jpg":
+"Changeling.png":
 {
 	"frame": {"x":380,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -144,7 +248,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Barracks.jpg":
+"Charge.png":
 {
 	"frame": {"x":456,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -152,7 +256,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"BarracksTechLab.jpg":
+"ChitinousPlating.png":
 {
 	"frame": {"x":532,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -160,7 +264,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Battlecruiser.jpg":
+"Colossus.png":
 {
 	"frame": {"x":608,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -168,7 +272,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"BattleHellion.jpg":
+"CombatShield.png":
 {
 	"frame": {"x":684,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -176,7 +280,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"BehemothReactor.jpg":
+"CommandCenter.png":
 {
 	"frame": {"x":760,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -184,7 +288,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Blink.jpg":
+"ConcussiveShells.png":
 {
 	"frame": {"x":836,"y":76,"w":76,"h":76},
 	"rotated": false,
@@ -192,7 +296,111 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"BosonicCore.jpg":
+"Corruptor.png":
+{
+	"frame": {"x":912,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"CreepTumor.png":
+{
+	"frame": {"x":988,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"CyberneticsCore.png":
+{
+	"frame": {"x":1064,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Cyclone.png":
+{
+	"frame": {"x":1140,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"DarkShrine.png":
+{
+	"frame": {"x":1216,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"DarkTemplar.png":
+{
+	"frame": {"x":1292,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"DarkTemplarBlinkUpgrade.png":
+{
+	"frame": {"x":1368,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"DiggingClaws.png":
+{
+	"frame": {"x":1444,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Disruptor.png":
+{
+	"frame": {"x":1520,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Drone.png":
+{
+	"frame": {"x":1596,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"EngineeringBay.png":
+{
+	"frame": {"x":1672,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"EnhancedShockwaves.png":
+{
+	"frame": {"x":1748,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"EvolutionChamber.png":
+{
+	"frame": {"x":1824,"y":76,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"EvolveGroovedSpines.png":
 {
 	"frame": {"x":0,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -200,7 +408,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Broodling.jpg":
+"EvolveMuscularAugments.png":
 {
 	"frame": {"x":76,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -208,7 +416,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Bunker.jpg":
+"ExtendedThermalLance.png":
 {
 	"frame": {"x":152,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -216,7 +424,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Carrier.jpg":
+"Extractor.png":
 {
 	"frame": {"x":228,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -224,7 +432,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"CentrifugalHooks.jpg":
+"Factory.png":
 {
 	"frame": {"x":304,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -232,7 +440,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Changeling.jpg":
+"FactoryReactor.png":
 {
 	"frame": {"x":380,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -240,15 +448,15 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Charge.jpg":
+"FactoryTechLab.png":
 {
-	"frame": {"x":456,"y":152,"w":76,"h":75},
+	"frame": {"x":456,"y":152,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":75},
-	"sourceSize": {"w":76,"h":75}
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
 },
-"ChitinousPlating.jpg":
+"FleetBeacon.png":
 {
 	"frame": {"x":532,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -256,7 +464,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Colossus.jpg":
+"Forge.png":
 {
 	"frame": {"x":608,"y":152,"w":76,"h":76},
 	"rotated": false,
@@ -264,39 +472,135 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"CombatShield.jpg":
+"FusionCore.png":
 {
-	"frame": {"x":684,"y":152,"w":74,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":76},
-	"sourceSize": {"w":74,"h":76}
-},
-"CommandCenter.jpg":
-{
-	"frame": {"x":758,"y":152,"w":76,"h":76},
+	"frame": {"x":684,"y":152,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ConcussiveShells.jpg":
+"Gateway.png":
 {
-	"frame": {"x":834,"y":152,"w":75,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":76},
-	"sourceSize": {"w":75,"h":76}
-},
-"Corruptor.jpg":
-{
-	"frame": {"x":909,"y":152,"w":76,"h":76},
+	"frame": {"x":760,"y":152,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"CreepTumor.jpg":
+"Ghost.png":
+{
+	"frame": {"x":836,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GhostAcademy.png":
+{
+	"frame": {"x":912,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GlialReconstitution.png":
+{
+	"frame": {"x":988,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GraviticBoosters.png":
+{
+	"frame": {"x":1064,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GraviticDrive.png":
+{
+	"frame": {"x":1140,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GravitySling.png":
+{
+	"frame": {"x":1216,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GroundArmor1.png":
+{
+	"frame": {"x":1292,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GroundArmor2.png":
+{
+	"frame": {"x":1368,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GroundArmor3.png":
+{
+	"frame": {"x":1444,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GroundWeapons1.png":
+{
+	"frame": {"x":1520,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GroundWeapons2.png":
+{
+	"frame": {"x":1596,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"GroundWeapons3.png":
+{
+	"frame": {"x":1672,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Hatchery.png":
+{
+	"frame": {"x":1748,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Hellion.png":
+{
+	"frame": {"x":1824,"y":152,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"HighTemplar.png":
 {
 	"frame": {"x":0,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -304,7 +608,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"CyberneticsCore.jpg":
+"HiSecAutoTracking.png":
 {
 	"frame": {"x":76,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -312,7 +616,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Cyclone.jpg":
+"Hydralisk.png":
 {
 	"frame": {"x":152,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -320,7 +624,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"DarkShrine.jpg":
+"HydraliskDen.png":
 {
 	"frame": {"x":228,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -328,7 +632,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"DarkTemplar.jpg":
+"Immortal.png":
 {
 	"frame": {"x":304,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -336,7 +640,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"DarkTemplarBlinkUpgrade.jpg":
+"InfestationPit.png":
 {
 	"frame": {"x":380,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -344,7 +648,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"DiggingClaws.jpg":
+"InfestedTerran.png":
 {
 	"frame": {"x":456,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -352,7 +656,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Disruptor.jpg":
+"Infestor.png":
 {
 	"frame": {"x":532,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -360,7 +664,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Drone.jpg":
+"Larva.png":
 {
 	"frame": {"x":608,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -368,7 +672,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"EngineeringBay.jpg":
+"Liberator.png":
 {
 	"frame": {"x":684,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -376,7 +680,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"EnhancedShockwaves.jpg":
+"LurkerDenMP.png":
 {
 	"frame": {"x":760,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -384,7 +688,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"EvolutionChamber.jpg":
+"Marauder.png":
 {
 	"frame": {"x":836,"y":228,"w":76,"h":76},
 	"rotated": false,
@@ -392,7 +696,111 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"EvolveGroovedSpines.jpg":
+"Marine.png":
+{
+	"frame": {"x":912,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Medivac.png":
+{
+	"frame": {"x":988,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"MedivacIncreaseSpeedBoost.png":
+{
+	"frame": {"x":1064,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"MetabolicBoost.png":
+{
+	"frame": {"x":1140,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"MissileTurret.png":
+{
+	"frame": {"x":1216,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Mothership.png":
+{
+	"frame": {"x":1292,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"MothershipCore.png":
+{
+	"frame": {"x":1368,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"MULE.png":
+{
+	"frame": {"x":1444,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Mutalisk.png":
+{
+	"frame": {"x":1520,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"NeuralParasite.png":
+{
+	"frame": {"x":1596,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Nexus.png":
+{
+	"frame": {"x":1672,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Nuke.png":
+{
+	"frame": {"x":1748,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"NydusNetwork.png":
+{
+	"frame": {"x":1824,"y":228,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"NydusWorm.png":
 {
 	"frame": {"x":0,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -400,7 +808,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"EvolveMuscularAugments.jpg":
+"Observer.png":
 {
 	"frame": {"x":76,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -408,7 +816,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ExtendedThermalLance.jpg":
+"Oracle.png":
 {
 	"frame": {"x":152,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -416,7 +824,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Extractor.jpg":
+"Overlord.png":
 {
 	"frame": {"x":228,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -424,7 +832,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Factory.jpg":
+"overlordspeed.png":
 {
 	"frame": {"x":304,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -432,7 +840,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"FactoryReactor.jpg":
+"PathogenGlands.png":
 {
 	"frame": {"x":380,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -440,7 +848,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"FleetBeacon.jpg":
+"PersonalCloaking.png":
 {
 	"frame": {"x":456,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -448,7 +856,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Forge.jpg":
+"Phoenix.png":
 {
 	"frame": {"x":532,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -456,7 +864,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"FusionCore.jpg":
+"PhotonCannon.png":
 {
 	"frame": {"x":608,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -464,7 +872,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Gateway.jpg":
+"PlanetaryFortress.png":
 {
 	"frame": {"x":684,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -472,7 +880,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Ghost.jpg":
+"Probe.png":
 {
 	"frame": {"x":760,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -480,7 +888,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GhostAcademy.jpg":
+"PsiStormTech.png":
 {
 	"frame": {"x":836,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -488,7 +896,111 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GlialReconstitution.jpg":
+"Pylon.png":
+{
+	"frame": {"x":912,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Queen.png":
+{
+	"frame": {"x":988,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Raven.png":
+{
+	"frame": {"x":1064,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Reactor.png":
+{
+	"frame": {"x":1140,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Reaper.png":
+{
+	"frame": {"x":1216,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Refinery.png":
+{
+	"frame": {"x":1292,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Roach.png":
+{
+	"frame": {"x":1368,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"RoachWarren.png":
+{
+	"frame": {"x":1444,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"RoboticsBay.png":
+{
+	"frame": {"x":1520,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"RoboticsFacility.png":
+{
+	"frame": {"x":1596,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"SCV.png":
+{
+	"frame": {"x":1672,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"SensorTower.png":
+{
+	"frame": {"x":1748,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Sentry.png":
+{
+	"frame": {"x":1824,"y":304,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"ShieldBattery.png":
 {
 	"frame": {"x":0,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -496,7 +1008,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GraviticBoosters.jpg":
+"Shields1.png":
 {
 	"frame": {"x":76,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -504,7 +1016,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GraviticDrive.jpg":
+"Shields2.png":
 {
 	"frame": {"x":152,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -512,7 +1024,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GravitySling.jpg":
+"Shields3.png":
 {
 	"frame": {"x":228,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -520,7 +1032,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GroundArmor1.jpg":
+"ShipWeapons1.png":
 {
 	"frame": {"x":304,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -528,7 +1040,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GroundArmor2.jpg":
+"ShipWeapons2.png":
 {
 	"frame": {"x":380,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -536,7 +1048,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GroundArmor3.jpg":
+"ShipWeapons3.png":
 {
 	"frame": {"x":456,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -544,7 +1056,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GroundWeapons1.jpg":
+"SiegeTank.png":
 {
 	"frame": {"x":532,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -552,7 +1064,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GroundWeapons2.jpg":
+"SpawningPool.png":
 {
 	"frame": {"x":608,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -560,7 +1072,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"GroundWeapons3.jpg":
+"SpineCrawler.png":
 {
 	"frame": {"x":684,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -568,7 +1080,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Hatchery.jpg":
+"Spire.png":
 {
 	"frame": {"x":760,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -576,7 +1088,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Hellion.jpg":
+"SporeCrawler.png":
 {
 	"frame": {"x":836,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -584,7 +1096,111 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"HighTemplar.jpg":
+"Stalker.png":
+{
+	"frame": {"x":912,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Stargate.png":
+{
+	"frame": {"x":988,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Starport.png":
+{
+	"frame": {"x":1064,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"StarportTechLab.png":
+{
+	"frame": {"x":1140,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Stimpack.png":
+{
+	"frame": {"x":1216,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"StructureArmor.png":
+{
+	"frame": {"x":1292,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"SupplyDepot.png":
+{
+	"frame": {"x":1368,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"SwarmHost.png":
+{
+	"frame": {"x":1444,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"TechLab.png":
+{
+	"frame": {"x":1520,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Tempest.png":
+{
+	"frame": {"x":1596,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"TemplarArchives.png":
+{
+	"frame": {"x":1672,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"TerranInfantryArmor1.png":
+{
+	"frame": {"x":1748,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"TerranInfantryArmor2.png":
+{
+	"frame": {"x":1824,"y":380,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"TerranInfantryArmor3.png":
 {
 	"frame": {"x":0,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -592,7 +1208,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"HiSecAutoTracking.jpg":
+"TerranInfantryWeapons1.png":
 {
 	"frame": {"x":76,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -600,7 +1216,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Hydralisk.jpg":
+"TerranInfantryWeapons2.png":
 {
 	"frame": {"x":152,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -608,7 +1224,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"HydraliskDen.jpg":
+"TerranInfantryWeapons3.png":
 {
 	"frame": {"x":228,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -616,7 +1232,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Immortal.jpg":
+"TerranVehicleAndShipArmorsLevel1.png":
 {
 	"frame": {"x":304,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -624,7 +1240,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"InfestationPit.jpg":
+"TerranVehicleAndShipArmorsLevel2.png":
 {
 	"frame": {"x":380,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -632,7 +1248,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"InfestedTerran.jpg":
+"TerranVehicleAndShipArmorsLevel3.png":
 {
 	"frame": {"x":456,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -640,7 +1256,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Infestor.jpg":
+"Thor.png":
 {
 	"frame": {"x":532,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -648,7 +1264,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Larva.jpg":
+"ToBroodLord.png":
 {
 	"frame": {"x":608,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -656,7 +1272,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Liberator.jpg":
+"ToGreaterSpire.png":
 {
 	"frame": {"x":684,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -664,7 +1280,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"LurkerDenMP.jpg":
+"ToHive.png":
 {
 	"frame": {"x":760,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -672,7 +1288,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Marauder.jpg":
+"ToLair.png":
 {
 	"frame": {"x":836,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -680,7 +1296,111 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Marine.jpg":
+"ToLurker.png":
+{
+	"frame": {"x":912,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"ToOrbitalCommand.png":
+{
+	"frame": {"x":988,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"ToOverseer.png":
+{
+	"frame": {"x":1064,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"ToRavager.png":
+{
+	"frame": {"x":1140,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"ToTransportOverlord.png":
+{
+	"frame": {"x":1216,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"TunnelingClaws.png":
+{
+	"frame": {"x":1292,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"TwilightCouncil.png":
+{
+	"frame": {"x":1368,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Ultralisk.png":
+{
+	"frame": {"x":1444,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"UltraliskCavern.png":
+{
+	"frame": {"x":1520,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"VehicleWeapons1.png":
+{
+	"frame": {"x":1596,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"VehicleWeapons2.png":
+{
+	"frame": {"x":1672,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"VehicleWeapons3.png":
+{
+	"frame": {"x":1748,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Viking.png":
+{
+	"frame": {"x":1824,"y":456,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"Viper.png":
 {
 	"frame": {"x":0,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -688,7 +1408,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Medivac.jpg":
+"VoidRay.png":
 {
 	"frame": {"x":76,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -696,7 +1416,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"MedivacIncreaseSpeedBoost.jpg":
+"WarpGate.png":
 {
 	"frame": {"x":152,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -704,7 +1424,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"MetabolicBoost.jpg":
+"WarpPrism.png":
 {
 	"frame": {"x":228,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -712,7 +1432,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"MissileTurret.jpg":
+"WeaponRefit.png":
 {
 	"frame": {"x":304,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -720,7 +1440,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Mothership.jpg":
+"WidowMine.png":
 {
 	"frame": {"x":380,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -728,7 +1448,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"MothershipCore.jpg":
+"Zealot.png":
 {
 	"frame": {"x":456,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -736,7 +1456,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"MULE.jpg":
+"ZergFlyerArmorsLevel1.png":
 {
 	"frame": {"x":532,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -744,7 +1464,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Mutalisk.jpg":
+"ZergFlyerArmorsLevel2.png":
 {
 	"frame": {"x":608,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -752,7 +1472,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"NeuralParasite.jpg":
+"ZergFlyerArmorsLevel3.png":
 {
 	"frame": {"x":684,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -760,7 +1480,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Nexus.jpg":
+"ZergFlyerWeaponsLevel1.png":
 {
 	"frame": {"x":760,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -768,801 +1488,97 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Nuke.jpg":
+"ZergFlyerWeaponsLevel2.png":
 {
-	"frame": {"x":836,"y":532,"w":74,"h":76},
+	"frame": {"x":836,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":76},
-	"sourceSize": {"w":74,"h":76}
-},
-"NydusNetwork.jpg":
-{
-	"frame": {"x":910,"y":532,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"NydusWorm.jpg":
-{
-	"frame": {"x":0,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Observer.jpg":
-{
-	"frame": {"x":76,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Oracle.jpg":
-{
-	"frame": {"x":152,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Overlord.jpg":
-{
-	"frame": {"x":228,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"overlordspeed.jpg":
-{
-	"frame": {"x":304,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"PathogenGlands.jpg":
-{
-	"frame": {"x":380,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"PersonalCloaking.jpg":
-{
-	"frame": {"x":456,"y":608,"w":75,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":76},
-	"sourceSize": {"w":75,"h":76}
-},
-"Phoenix.jpg":
-{
-	"frame": {"x":531,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"PhotonCannon.jpg":
-{
-	"frame": {"x":607,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"PlanetaryFortress.jpg":
-{
-	"frame": {"x":683,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Probe.jpg":
-{
-	"frame": {"x":759,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"PsiStormTech.jpg":
-{
-	"frame": {"x":835,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Pylon.jpg":
-{
-	"frame": {"x":911,"y":608,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Queen.jpg":
-{
-	"frame": {"x":0,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Raven.jpg":
-{
-	"frame": {"x":76,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Reactor.jpg":
-{
-	"frame": {"x":152,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Reaper.jpg":
-{
-	"frame": {"x":228,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Refinery.jpg":
-{
-	"frame": {"x":304,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Roach.jpg":
-{
-	"frame": {"x":380,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"RoachWarren.jpg":
-{
-	"frame": {"x":456,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"RoboticsBay.jpg":
-{
-	"frame": {"x":532,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"RoboticsFacility.jpg":
-{
-	"frame": {"x":608,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SCV.jpg":
-{
-	"frame": {"x":684,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SensorTower.jpg":
-{
-	"frame": {"x":760,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Sentry.jpg":
-{
-	"frame": {"x":836,"y":684,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ShieldBattery.jpg":
-{
-	"frame": {"x":0,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Shields1.jpg":
-{
-	"frame": {"x":76,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Shields2.jpg":
-{
-	"frame": {"x":152,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Shields3.jpg":
-{
-	"frame": {"x":228,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ShipWeapons1.jpg":
-{
-	"frame": {"x":304,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ShipWeapons2.jpg":
-{
-	"frame": {"x":380,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ShipWeapons3.jpg":
-{
-	"frame": {"x":456,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SiegeTank.jpg":
-{
-	"frame": {"x":532,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SpawningPool.jpg":
-{
-	"frame": {"x":608,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SpineCrawler.jpg":
-{
-	"frame": {"x":684,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Spire.jpg":
-{
-	"frame": {"x":760,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SporeCrawler.jpg":
-{
-	"frame": {"x":836,"y":760,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Stalker.jpg":
-{
-	"frame": {"x":0,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Stargate.jpg":
-{
-	"frame": {"x":76,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Starport.jpg":
-{
-	"frame": {"x":152,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"StarportTechLab.jpg":
-{
-	"frame": {"x":228,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Stimpack.jpg":
-{
-	"frame": {"x":304,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"StructureArmor.jpg":
-{
-	"frame": {"x":380,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SupplyDepot.jpg":
-{
-	"frame": {"x":456,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"SwarmHost.jpg":
-{
-	"frame": {"x":532,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TechLab.jpg":
-{
-	"frame": {"x":608,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Tempest.jpg":
-{
-	"frame": {"x":684,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TemplarArchives.jpg":
-{
-	"frame": {"x":760,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranInfantryArmor1.jpg":
-{
-	"frame": {"x":836,"y":836,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranInfantryArmor2.jpg":
-{
-	"frame": {"x":0,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranInfantryArmor3.jpg":
-{
-	"frame": {"x":76,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranInfantryWeapons1.jpg":
-{
-	"frame": {"x":152,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranInfantryWeapons2.jpg":
-{
-	"frame": {"x":228,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranInfantryWeapons3.jpg":
-{
-	"frame": {"x":304,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranVehicleAndShipArmorsLevel1.jpg":
-{
-	"frame": {"x":380,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranVehicleAndShipArmorsLevel2.jpg":
-{
-	"frame": {"x":456,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TerranVehicleAndShipArmorsLevel3.jpg":
-{
-	"frame": {"x":532,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Thor.jpg":
-{
-	"frame": {"x":608,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToBroodLord.jpg":
-{
-	"frame": {"x":684,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToGreaterSpire.jpg":
-{
-	"frame": {"x":760,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToHive.jpg":
-{
-	"frame": {"x":836,"y":912,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToLair.jpg":
-{
-	"frame": {"x":0,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToLurker.jpg":
-{
-	"frame": {"x":76,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToOrbitalCommand.jpg":
-{
-	"frame": {"x":152,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToOverseer.jpg":
-{
-	"frame": {"x":228,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToRavager.jpg":
-{
-	"frame": {"x":304,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ToTransportOverlord.jpg":
-{
-	"frame": {"x":380,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TunnelingClaws.jpg":
-{
-	"frame": {"x":456,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"TwilightCouncil.jpg":
-{
-	"frame": {"x":532,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Ultralisk.jpg":
-{
-	"frame": {"x":608,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"UltraliskCavern.jpg":
-{
-	"frame": {"x":684,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"VehicleWeapons1.jpg":
-{
-	"frame": {"x":760,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"VehicleWeapons2.jpg":
-{
-	"frame": {"x":836,"y":988,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"VehicleWeapons3.jpg":
-{
-	"frame": {"x":0,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Viking.jpg":
-{
-	"frame": {"x":76,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Viper.jpg":
-{
-	"frame": {"x":152,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"VoidRay.jpg":
-{
-	"frame": {"x":228,"y":1064,"w":66,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":76},
-	"sourceSize": {"w":66,"h":76}
-},
-"WarpGate.jpg":
-{
-	"frame": {"x":294,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"WarpPrism.jpg":
-{
-	"frame": {"x":370,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"WeaponRefit.jpg":
-{
-	"frame": {"x":446,"y":1064,"w":75,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":76},
-	"sourceSize": {"w":75,"h":76}
-},
-"WidowMine.jpg":
-{
-	"frame": {"x":521,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"Zealot.jpg":
-{
-	"frame": {"x":597,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ZergFlyerArmorsLevel1.jpg":
-{
-	"frame": {"x":673,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ZergFlyerArmorsLevel2.jpg":
-{
-	"frame": {"x":749,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ZergFlyerArmorsLevel3.jpg":
-{
-	"frame": {"x":825,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ZergFlyerWeaponsLevel1.jpg":
-{
-	"frame": {"x":901,"y":1064,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
-	"sourceSize": {"w":76,"h":76}
-},
-"ZergFlyerWeaponsLevel2.jpg":
-{
-	"frame": {"x":0,"y":1140,"w":76,"h":76},
-	"rotated": false,
-	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergFlyerWeaponsLevel3.jpg":
+"ZergFlyerWeaponsLevel3.png":
 {
-	"frame": {"x":76,"y":1140,"w":76,"h":76},
+	"frame": {"x":912,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergGroundArmorsLevel1.jpg":
+"ZergGroundArmorsLevel1.png":
 {
-	"frame": {"x":152,"y":1140,"w":76,"h":76},
+	"frame": {"x":988,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergGroundArmorsLevel2.jpg":
+"ZergGroundArmorsLevel2.png":
 {
-	"frame": {"x":228,"y":1140,"w":76,"h":76},
+	"frame": {"x":1064,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergGroundArmorsLevel3.jpg":
+"ZergGroundArmorsLevel3.png":
 {
-	"frame": {"x":304,"y":1140,"w":76,"h":76},
+	"frame": {"x":1140,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Zergling.jpg":
+"Zergling.png":
 {
-	"frame": {"x":380,"y":1140,"w":76,"h":76},
+	"frame": {"x":1216,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMeleeWeaponsLevel1.jpg":
+"ZergMeleeWeaponsLevel1.png":
 {
-	"frame": {"x":456,"y":1140,"w":76,"h":76},
+	"frame": {"x":1292,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMeleeWeaponsLevel2.jpg":
+"ZergMeleeWeaponsLevel2.png":
 {
-	"frame": {"x":532,"y":1140,"w":76,"h":76},
+	"frame": {"x":1368,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMeleeWeaponsLevel3.jpg":
+"ZergMeleeWeaponsLevel3.png":
 {
-	"frame": {"x":608,"y":1140,"w":76,"h":76},
+	"frame": {"x":1444,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMissileWeaponsLevel1.jpg":
+"ZergMissileWeaponsLevel1.png":
 {
-	"frame": {"x":684,"y":1140,"w":76,"h":76},
+	"frame": {"x":1520,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMissileWeaponsLevel2.jpg":
+"ZergMissileWeaponsLevel2.png":
 {
-	"frame": {"x":760,"y":1140,"w":76,"h":76},
+	"frame": {"x":1596,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMissileWeaponsLevel3.jpg":
+"ZergMissileWeaponsLevel3.png":
 {
-	"frame": {"x":836,"y":1140,"w":76,"h":76},
+	"frame": {"x":1672,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
@@ -1573,8 +1589,8 @@
 	"version": "1.0",
 	"image": "spritedata.png",
 	"format": "RGBA8888",
-	"size": {"w":987,"h":1216},
+	"size": {"w":1900,"h":608},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:fa37b49ab939469aef3fabfad93cac09:fd8bd61001ba1182f4b19cb34c410af0:2fcf7cab5bceb9fd094c34672ec44a19$"
+	"smartupdate": "$TexturePacker:SmartUpdate:e609acd231f38216fc14bc10a2e0df74:d1c87a8d6470b80ee2f82ba7348abdb1:2fcf7cab5bceb9fd094c34672ec44a19$"
 }
 }

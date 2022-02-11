@@ -14,13 +14,12 @@ def get_replay_data(file):
     ][0]
     out['player'] = str(player)
 
-    Event = namedtuple('Event',['frame', 'verb', 'noun'])
+    Event = namedtuple('Event',['frame', 'verb', 'noun', 'fullname'])
 
     out['events'] = []
     # Allow specification of events to `show`
     # Loop through the events
-    watch_re = re.compile(r'(Evolve|Morph|Spawn|Research|Train|Build|Upgrade|Lift)(\w+)')
-    #watch_re = re.compile(r'([A-Z][a-z]+)')
+    watch_re = re.compile(r'^(Evolve|Morph|Spawn|Research|Train|Build|Upgrade|Lift)(\w+)')
 
     for event in player.events:
         if (isinstance(event, CommandEvent)
@@ -30,6 +29,6 @@ def get_replay_data(file):
             if match:
                 verb = match[0][0]
                 noun = ''.join(match[0][1:])
-                out['events'].append(Event(event.frame, verb, noun))
+                out['events'].append(Event(event.frame, verb, noun, event.ability.name))
 
     return out
