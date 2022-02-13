@@ -1,0 +1,3 @@
+fastapi
+sc2reader
+python-multipart
