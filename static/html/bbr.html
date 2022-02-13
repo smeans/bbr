@@ -1963,11 +1963,15 @@
                 pointer-events: none;
             }
 
-            button x-svg {
-                width: 1.1rem;
-                height: 1.1rem;
+            x-controls x-svg {
+                width: 1.3rem;
+                height: 1.3rem;
                 fill: none;
                 color: #ddd;
+            }
+
+            #currentTick {
+                flex-grow: 1;
             }
         </style>
         <x-controls id="controls">
@@ -1975,6 +1979,10 @@
             <button id="reset"><x-svg src="/s/svg/refresh.svg"></x-svg></button>
             <label id="currentTime">00:00</label>
             <input id="currentTick" type="range" min="0" max="0"/>
+            <x-svg src="/s/svg/clock.svg"></x-svg>
+            <input id="gameSpeed" type="range" min="6" max="14" step="2" value="14"/>
+            <x-svg src="/s/svg/zoomin.svg"></x-svg>
+            <input id="ppt" type="range" min="6" max="20" step="1" value="10"/>
         </x-controls>
         <x-svg id="timeline" src="/s/svg/timeline.svg"></x-svg>
         <canvas id="channels"></canvas>
@@ -1983,6 +1991,7 @@
                 static mappedAttributes = {"replay":"replay"};
                 static tickCount = 9.5;
                 static msPerTick = 1000.0/16.0;
+                static dragSlop = 20.0;
 
                 constructor() {
                     super();
@@ -1992,7 +2001,7 @@
                     this._playing = false;
                     this._seeking = false;
                     this._connected = false;
-                    this._ppt = .5;
+                    this._ppt = 1.0;
                     this._baseSpriteSize = Object.values(spriteData.frames)[0].frame.w;
 
                     this._sprites = new Image();
@@ -2004,7 +2013,6 @@
                     this._sprites.src = "/s/images/spritedata.png";
 
                     this.g.play.addEventListener('click', (e) => {
-                        console.log('clicked');
                         this._playing ? this.pause() : this.play();
                     });
 
@@ -2017,8 +2025,8 @@
                     });
 
                     this.g.currentTick.addEventListener('mouseup', (e) => {
-                        if (e.offsetX >= 0 && e.offsetX < e.target.offsetWidth
-                                && e.offsetY >= 0 && e.offsetY < e.target.offsetHeight) {
+                        if (e.offsetY >= -XEventStrip.dragSlop
+                                && e.offsetY < (e.target.offsetHeight + XEventStrip.dragSlop)) {
                             this.currentTick = parseInt(e.target.value);
                         }
 
@@ -2030,7 +2038,11 @@
                         this._previewTick = parseInt(this.g.currentTick.value);
                     });
 
-                    console.log('initialized event strip');
+                    this.g.ppt.addEventListener('input', (e) => {
+                        this.ppt = e.target.value/10.0;
+                    });
+
+                    console.debug('initialized event strip');
                 }
 
                 connectedCallback() {
@@ -2040,6 +2052,18 @@
 
                 disconnectedCallback() {
                     this._connected = false;
+                }
+
+                get gameSpeed() {
+                    return parseInt(this.g.gameSpeed.value)/10.0;
+                }
+
+                set gameSpeed(newSpeed) {
+                    this.g.gameSpeed.value = newSpeed;
+                }
+
+                get msPerTick() {
+                    return XEventStrip.msPerTick / this.gameSpeed;
                 }
 
                 get replay() {
@@ -2057,17 +2081,28 @@
                         return this._previewTick;
                     }
 
-                    return Math.floor(this._pos/XEventStrip.msPerTick);
+                    return Math.floor(this._pos/this.msPerTick);
                 }
 
                 set currentTick(newTick) {
-                    this._pos = Math.max(0, Math.min(this.lastFrame, newTick)) * XEventStrip.msPerTick;
+                    this._pos = Math.max(0, Math.min(this.lastFrame, newTick)) * this.msPerTick;
                 }
 
                 get currentTime() {
-                    const m = this.currentTick/(60.0*16.0);
+                    let pos = this._pos;
 
-                    return m.toFixed(2).toString().padStart(5, '0').replace('.', ':');
+                    if (this._seeking && this._previewTick !== undefined) {
+                        pos = this._previewTick * this.msPerTick;
+                    }
+
+                    let s = Math.floor(pos/1000.00);
+                    let m = Math.floor(s/60);
+
+                    s %= 60;
+                    s = s.toString().padStart(2, '0');
+                    m = m.toString().padStart(2, '0');
+
+                    return `${m}:${s}`;
                 }
 
                 get ctx() {
@@ -2075,11 +2110,16 @@
                 }
 
                 get xOrigin() {
-                    return this.g.channels.offsetWidth/XEventStrip.tickCount;
+                    return this.g.channels.offsetWidth/XEventStrip.tickCount*2.0;
                 }
 
                 get ppt() {
                     return this._ppt;
+                }
+
+                set ppt(newPpt) {
+                    this._ppt = newPpt;
+                    this._syncDisplay();
                 }
 
                 get spriteSize() {
@@ -2165,17 +2205,18 @@
                         return;
                     }
 
+                    for (let i = channelData.length-1; i >= 0; i--) {
+                        const event = channelData[i];
+
+                        this.drawSprite(event[TARGET], channelIndex, event[TICK]);
+                    }
+
                     const frame = spriteInfo.frame;
 
                     const dy = channelIndex * this.channelHeight + (this.channelHeight/2 - this.channelIconSize/2);
                     this.ctx.drawImage(this._sprites, frame.x, frame.y, frame.w, frame.h,
                             0, dy, this.channelIconSize, this.channelIconSize);
 
-                    for (let i = channelData.length-1; i >= 0; i--) {
-                        const event = channelData[i];
-
-                        this.drawSprite(event[TARGET], channelIndex, event[TICK]);
-                    }
                 }
 
                 getVisibleChannels() {
@@ -2240,6 +2281,13 @@
 
                         this.drawChannel(i, channelName, channels[channelName]);
                     }
+
+                    this.ctx.beginPath();
+                    this.ctx.strokeStyle = "#e54f0daa";
+                    this.ctx.lineWidth = 3;
+                    this.ctx.moveTo(this.xOrigin-2, 0);
+                    this.ctx.lineTo(this.xOrigin-2, this.g.channels.height);
+                    this.ctx.stroke();
 
                     this.ctx.fillStyle = '#fff';
                     this.ctx.fillText(this.currentTick, 0, this.g.channels.height);

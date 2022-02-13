@@ -3,11 +3,14 @@
 {% block main %}
 <h5>{{replay.player}}</h5>
 <x-event-strip id="strip"></x-event-strip>
-<ul>
-    {% for event in replay.events %}
-    <li>{{event.frame}} {{event.verb}} {{event.noun}} {{event.fullname}}</li>
-    {% endfor %}
-</ul>
+<details>
+    <summary>raw events</summary>
+    <ul>
+        {% for event in replay.events %}
+        <li>{{event.frame}} {{event.verb}} {{event.noun}}</li>
+        {% endfor %}
+    </ul>
+</details>
 <script>
     const replay = {{replay_json|safe}};
 

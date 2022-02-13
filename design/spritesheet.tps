@@ -195,6 +195,7 @@
             <key type="filename">icons/AirWeapons2.png</key>
             <key type="filename">icons/AirWeapons3.png</key>
             <key type="filename">icons/AnabolicSynthesis.png</key>
+            <key type="filename">icons/AnionPulseCrystals.png</key>
             <key type="filename">icons/Archon.png</key>
             <key type="filename">icons/Armory.png</key>
             <key type="filename">icons/Assimilator.png</key>
@@ -203,10 +204,13 @@
             <key type="filename">icons/BanelingNest.png</key>
             <key type="filename">icons/Banshee.png</key>
             <key type="filename">icons/Barracks.png</key>
+            <key type="filename">icons/BarracksReactor.png</key>
             <key type="filename">icons/BarracksTechLab.png</key>
             <key type="filename">icons/BattleHellion.png</key>
             <key type="filename">icons/Battlecruiser.png</key>
             <key type="filename">icons/BehemothReactor.png</key>
+            <key type="filename">icons/Blink.png</key>
+            <key type="filename">icons/BosonicCore.png</key>
             <key type="filename">icons/Broodling.png</key>
             <key type="filename">icons/Bunker.png</key>
             <key type="filename">icons/Carrier.png</key>
@@ -224,14 +228,20 @@
             <key type="filename">icons/Cyclone.png</key>
             <key type="filename">icons/DarkShrine.png</key>
             <key type="filename">icons/DarkTemplar.png</key>
+            <key type="filename">icons/DarkTemplarBlinkUpgrade.png</key>
+            <key type="filename">icons/DiggingClaws.png</key>
             <key type="filename">icons/Disruptor.png</key>
             <key type="filename">icons/Drone.png</key>
             <key type="filename">icons/EngineeringBay.png</key>
+            <key type="filename">icons/EnhancedShockwaves.png</key>
             <key type="filename">icons/EvolutionChamber.png</key>
+            <key type="filename">icons/EvolveGroovedSpines.png</key>
+            <key type="filename">icons/EvolveMuscularAugments.png</key>
             <key type="filename">icons/ExtendedThermalLance.png</key>
             <key type="filename">icons/Extractor.png</key>
             <key type="filename">icons/Factory.png</key>
             <key type="filename">icons/FactoryReactor.png</key>
+            <key type="filename">icons/FactoryTechLab.png</key>
             <key type="filename">icons/FleetBeacon.png</key>
             <key type="filename">icons/Forge.png</key>
             <key type="filename">icons/FusionCore.png</key>
@@ -241,6 +251,7 @@
             <key type="filename">icons/GlialReconstitution.png</key>
             <key type="filename">icons/GraviticBoosters.png</key>
             <key type="filename">icons/GraviticDrive.png</key>
+            <key type="filename">icons/GravitySling.png</key>
             <key type="filename">icons/GroundArmor1.png</key>
             <key type="filename">icons/GroundArmor2.png</key>
             <key type="filename">icons/GroundArmor3.png</key>
@@ -270,6 +281,7 @@
             <key type="filename">icons/Mothership.png</key>
             <key type="filename">icons/MothershipCore.png</key>
             <key type="filename">icons/Mutalisk.png</key>
+            <key type="filename">icons/NeuralParasite.png</key>
             <key type="filename">icons/Nexus.png</key>
             <key type="filename">icons/Nuke.png</key>
             <key type="filename">icons/NydusNetwork.png</key>
@@ -283,6 +295,7 @@
             <key type="filename">icons/PhotonCannon.png</key>
             <key type="filename">icons/PlanetaryFortress.png</key>
             <key type="filename">icons/Probe.png</key>
+            <key type="filename">icons/PsiStormTech.png</key>
             <key type="filename">icons/Pylon.png</key>
             <key type="filename">icons/Queen.png</key>
             <key type="filename">icons/Raven.png</key>
@@ -312,11 +325,13 @@
             <key type="filename">icons/Stargate.png</key>
             <key type="filename">icons/Starport.png</key>
             <key type="filename">icons/StarportTechLab.png</key>
+            <key type="filename">icons/Stimpack.png</key>
             <key type="filename">icons/StructureArmor.png</key>
             <key type="filename">icons/SupplyDepot.png</key>
             <key type="filename">icons/SwarmHost.png</key>
             <key type="filename">icons/TechLab.png</key>
             <key type="filename">icons/Tempest.png</key>
+            <key type="filename">icons/TemplarArchive - Copy.png</key>
             <key type="filename">icons/TemplarArchives.png</key>
             <key type="filename">icons/TerranInfantryArmor1.png</key>
             <key type="filename">icons/TerranInfantryArmor2.png</key>
@@ -380,32 +395,6 @@
                 <rect>19,19,38,38</rect>
                 <key>scale9Paddings</key>
                 <rect>19,19,38,38</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">icons/AnionPulseCrystals.png</key>
-            <key type="filename">icons/Blink.png</key>
-            <key type="filename">icons/BosonicCore.png</key>
-            <key type="filename">icons/DarkTemplarBlinkUpgrade.png</key>
-            <key type="filename">icons/DiggingClaws.png</key>
-            <key type="filename">icons/EnhancedShockwaves.png</key>
-            <key type="filename">icons/EvolveGroovedSpines.png</key>
-            <key type="filename">icons/EvolveMuscularAugments.png</key>
-            <key type="filename">icons/GravitySling.png</key>
-            <key type="filename">icons/NeuralParasite.png</key>
-            <key type="filename">icons/PsiStormTech.png</key>
-            <key type="filename">icons/Stimpack.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,16,31,31</rect>
-                <key>scale9Paddings</key>
-                <rect>16,16,31,31</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

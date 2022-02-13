@@ -1,4 +1,6 @@
 import re
+import logging as log
+
 
 from collections import namedtuple
 
@@ -25,10 +27,13 @@ def get_replay_data(file):
         if (isinstance(event, CommandEvent)
                 and event.has_ability
         ):
-            match = watch_re.findall(event.ability.name)
-            if match:
-                verb = match[0][0]
-                noun = ''.join(match[0][1:])
-                out['events'].append(Event(event.frame, verb, noun, event.ability.name))
+            try:
+                match = watch_re.findall(event.ability.name)
+                if match:
+                    verb = match[0][0]
+                    noun = ''.join(match[0][1:])
+                    out['events'].append(Event(event.frame, verb, noun, event.ability.name))
+            except Exception as e:
+                log.error(f'error processing event: {event}: {e}')
 
     return out
