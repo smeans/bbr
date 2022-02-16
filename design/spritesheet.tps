@@ -324,6 +324,7 @@
             <key type="filename">icons/Stalker.png</key>
             <key type="filename">icons/Stargate.png</key>
             <key type="filename">icons/Starport.png</key>
+            <key type="filename">icons/StarportReactor.png</key>
             <key type="filename">icons/StarportTechLab.png</key>
             <key type="filename">icons/Stimpack.png</key>
             <key type="filename">icons/StructureArmor.png</key>
