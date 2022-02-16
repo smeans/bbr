@@ -1,21 +1,46 @@
 {% extends "base.html" %}
 
 {% block main %}
-<h5>{{replay.player}}</h5>
+<h5 id="curplayer">{{replays[0].player}}</h5>
 <x-event-strip id="strip"></x-event-strip>
 <details>
     <summary>raw events</summary>
-    <ul>
-        {% for event in replay.events %}
+    <ul id="rawevents">
+        {% for event in replays[0].events %}
         <li>{{event.frame}} {{event.verb}} {{event.noun}}</li>
         {% endfor %}
     </ul>
 </details>
 <script>
-    const replay = {{replay_json|safe}};
+    const replays = {{replays_json|safe}};
 
     document.addEventListener('ph-loaded', () => {
-        strip.replay = replay;
+        if (replays.length > 1) {
+            const sel = document.createElement('select');
+            replays.forEach((replay, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = replay.player;
+                sel.appendChild(opt);
+            });
+
+            curplayer.innerText = '';
+            curplayer.appendChild(sel);
+        }
+
+        strip.replay = replays[0];
+
+        curplayer.addEventListener('change', (e) => {
+            const i = parseInt(e.srcElement.value);
+            strip.replay = replays[i];
+
+            rawevents.innerText = '';
+            replays[i].events.forEach((event) => {
+                const li = document.createElement('li');
+                li.innerText = `${event[0]} ${event[1]} ${event[2]}`;
+                rawevents.appendChild(li);
+            });
+        });
     });
 </script>
 {% endblock %}

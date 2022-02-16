@@ -40,12 +40,8 @@ def root(request: Request) -> dict:
 async def create_file(request: Request, replay: UploadFile):
     data = get_replay_data(replay.file)
 
-    nouns = set()
-    for event in data['events']:
-        nouns.add(event.noun)
-
     return templates.TemplateResponse(
         "play.html",
         {"title": f"Play {replay.filename}", "request": request, "replay_file": replay,
-            "replay": data, "nouns": nouns, "replay_json": json.dumps(data)},
+            "replays": data, "replays_json": json.dumps(data)},
     )
