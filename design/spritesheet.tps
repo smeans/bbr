@@ -351,6 +351,7 @@
             <key type="filename">icons/ToLurker.png</key>
             <key type="filename">icons/ToOrbitalCommand.png</key>
             <key type="filename">icons/ToOverseer.png</key>
+            <key type="filename">icons/ToPlanetaryFortress.png</key>
             <key type="filename">icons/ToRavager.png</key>
             <key type="filename">icons/ToTransportOverlord.png</key>
             <key type="filename">icons/TunnelingClaws.png</key>
