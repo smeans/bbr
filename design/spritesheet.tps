@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>5</int>
         <key>texturePackerVersion</key>
-        <string>6.0.0</string>
+        <string>6.0.1</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -218,6 +218,7 @@
             <key type="filename">icons/Changeling.png</key>
             <key type="filename">icons/Charge.png</key>
             <key type="filename">icons/ChitinousPlating.png</key>
+            <key type="filename">icons/ChronoBoost.png</key>
             <key type="filename">icons/Colossus.png</key>
             <key type="filename">icons/CombatShield.png</key>
             <key type="filename">icons/CommandCenter.png</key>
