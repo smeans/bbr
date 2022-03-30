@@ -26,7 +26,7 @@ def get_replay_data(file):
         out['events'] = []
         # Allow specification of events to `show`
         # Loop through the events
-        watch_re = re.compile(r'^(Evolve|Morph|Spawn|Research|Train|Build|Upgrade)(\w+)')
+        watch_re = re.compile(r'^(Evolve|Morph|Spawn|Research|Train|Build|Upgrade|WarpIn)(\w+)')
 
         for event in player.events:
             if (isinstance(event, TargetUnitCommandEvent)
