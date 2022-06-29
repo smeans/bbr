@@ -1,5 +1,8 @@
+import os
 import re
 import logging as log
+LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')
+log.basicConfig(level=LOG_LEVEL)
 
 
 from collections import namedtuple
@@ -29,8 +32,10 @@ def get_replay_data(file):
         watch_re = re.compile(r'^(Evolve|Morph|Spawn|Research|Train|Build|Upgrade|WarpIn)(\w+)')
 
         for event in player.events:
+            log.debug(f'event {event}')
             if (isinstance(event, TargetUnitCommandEvent)
                     and event.ability_name.strip() == 'ChronoBoostEnergyCost'
+                    and event.target.name not in ['SpacePlatformGeyser']
             ):
                 out['events'].append(Event(event.frame, 'ChronoBoost', event.target.name, f'ChronoBoost{event.target}'))
             elif (isinstance(event, CommandEvent)
@@ -41,7 +46,16 @@ def get_replay_data(file):
                     if match:
                         verb = match[0][0]
                         noun = ''.join(match[0][1:])
+                    else:
+                        verb, noun = {
+                            "CalldownMULE": ('Calldown', 'MULE'),
+                            "ScannerSweep": ('Sweep', 'ScannerSweep')
+                        }.get(event.ability.name, (None, None))
+
+                    if verb:
                         out['events'].append(Event(event.frame, verb, noun, event.ability.name))
+
+
                 except Exception as e:
                     log.error(f'error processing event: {event}: {e}')
 

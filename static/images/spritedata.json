@@ -984,7 +984,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SCV.png":
+"ScannerSweep.png":
 {
 	"frame": {"x":1444,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -992,7 +992,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SensorTower.png":
+"SCV.png":
 {
 	"frame": {"x":1520,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -1000,7 +1000,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Sentry.png":
+"SensorTower.png":
 {
 	"frame": {"x":1596,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -1008,7 +1008,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ShieldBattery.png":
+"Sentry.png":
 {
 	"frame": {"x":1672,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -1016,7 +1016,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Shields1.png":
+"ShieldBattery.png":
 {
 	"frame": {"x":1748,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -1024,7 +1024,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Shields2.png":
+"Shields1.png":
 {
 	"frame": {"x":1824,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -1032,7 +1032,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Shields3.png":
+"Shields2.png":
 {
 	"frame": {"x":1900,"y":304,"w":76,"h":76},
 	"rotated": false,
@@ -1040,7 +1040,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ShipWeapons1.png":
+"Shields3.png":
 {
 	"frame": {"x":0,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1048,7 +1048,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ShipWeapons2.png":
+"ShipWeapons1.png":
 {
 	"frame": {"x":76,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1056,7 +1056,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ShipWeapons3.png":
+"ShipWeapons2.png":
 {
 	"frame": {"x":152,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1064,7 +1064,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SiegeTank.png":
+"ShipWeapons3.png":
 {
 	"frame": {"x":228,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1072,7 +1072,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SpawningPool.png":
+"SiegeTank.png":
 {
 	"frame": {"x":304,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1080,7 +1080,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SpineCrawler.png":
+"SpawningPool.png":
 {
 	"frame": {"x":380,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1088,7 +1088,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Spire.png":
+"SpineCrawler.png":
 {
 	"frame": {"x":456,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1096,7 +1096,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SporeCrawler.png":
+"Spire.png":
 {
 	"frame": {"x":532,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1104,7 +1104,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Stalker.png":
+"SporeCrawler.png":
 {
 	"frame": {"x":608,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1112,7 +1112,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Stargate.png":
+"Stalker.png":
 {
 	"frame": {"x":684,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1120,7 +1120,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Starport.png":
+"Stargate.png":
 {
 	"frame": {"x":760,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1128,7 +1128,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"StarportReactor.png":
+"Starport.png":
 {
 	"frame": {"x":836,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1136,7 +1136,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"StarportTechLab.png":
+"StarportReactor.png":
 {
 	"frame": {"x":912,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1144,7 +1144,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Stimpack.png":
+"StarportTechLab.png":
 {
 	"frame": {"x":988,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1152,7 +1152,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"StructureArmor.png":
+"Stimpack.png":
 {
 	"frame": {"x":1064,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1160,7 +1160,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SupplyDepot.png":
+"StructureArmor.png":
 {
 	"frame": {"x":1140,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1168,7 +1168,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"SwarmHost.png":
+"SupplyDepot.png":
 {
 	"frame": {"x":1216,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1176,7 +1176,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TechLab.png":
+"SwarmHost.png":
 {
 	"frame": {"x":1292,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1184,7 +1184,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Tempest.png":
+"TechLab.png":
 {
 	"frame": {"x":1368,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1192,7 +1192,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TemplarArchive - Copy.png":
+"Tempest.png":
 {
 	"frame": {"x":1444,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1200,7 +1200,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TemplarArchives.png":
+"TemplarArchive - Copy.png":
 {
 	"frame": {"x":1520,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1208,7 +1208,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranInfantryArmor1.png":
+"TemplarArchives.png":
 {
 	"frame": {"x":1596,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1216,7 +1216,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranInfantryArmor2.png":
+"TerranInfantryArmor1.png":
 {
 	"frame": {"x":1672,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1224,7 +1224,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranInfantryArmor3.png":
+"TerranInfantryArmor2.png":
 {
 	"frame": {"x":1748,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1232,7 +1232,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranInfantryWeapons1.png":
+"TerranInfantryArmor3.png":
 {
 	"frame": {"x":1824,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1240,7 +1240,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranInfantryWeapons2.png":
+"TerranInfantryWeapons1.png":
 {
 	"frame": {"x":1900,"y":380,"w":76,"h":76},
 	"rotated": false,
@@ -1248,7 +1248,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranInfantryWeapons3.png":
+"TerranInfantryWeapons2.png":
 {
 	"frame": {"x":0,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1256,7 +1256,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranVehicleAndShipArmorsLevel1.png":
+"TerranInfantryWeapons3.png":
 {
 	"frame": {"x":76,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1264,7 +1264,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranVehicleAndShipArmorsLevel2.png":
+"TerranVehicleAndShipArmorsLevel1.png":
 {
 	"frame": {"x":152,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1272,7 +1272,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TerranVehicleAndShipArmorsLevel3.png":
+"TerranVehicleAndShipArmorsLevel2.png":
 {
 	"frame": {"x":228,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1280,7 +1280,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Thor.png":
+"TerranVehicleAndShipArmorsLevel3.png":
 {
 	"frame": {"x":304,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1288,7 +1288,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToBroodLord.png":
+"Thor.png":
 {
 	"frame": {"x":380,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1296,7 +1296,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToGreaterSpire.png":
+"ToBroodLord.png":
 {
 	"frame": {"x":456,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1304,7 +1304,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToHive.png":
+"ToGreaterSpire.png":
 {
 	"frame": {"x":532,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1312,7 +1312,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToLair.png":
+"ToHive.png":
 {
 	"frame": {"x":608,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1320,7 +1320,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToLurker.png":
+"ToLair.png":
 {
 	"frame": {"x":684,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1328,7 +1328,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToOrbitalCommand.png":
+"ToLurker.png":
 {
 	"frame": {"x":760,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1336,7 +1336,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToOverseer.png":
+"ToOrbitalCommand.png":
 {
 	"frame": {"x":836,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1344,7 +1344,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToPlanetaryFortress.png":
+"ToOverseer.png":
 {
 	"frame": {"x":912,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1352,7 +1352,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToRavager.png":
+"ToPlanetaryFortress.png":
 {
 	"frame": {"x":988,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1360,7 +1360,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ToTransportOverlord.png":
+"ToRavager.png":
 {
 	"frame": {"x":1064,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1368,7 +1368,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TunnelingClaws.png":
+"ToTransportOverlord.png":
 {
 	"frame": {"x":1140,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1376,7 +1376,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"TwilightCouncil.png":
+"TunnelingClaws.png":
 {
 	"frame": {"x":1216,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1384,7 +1384,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Ultralisk.png":
+"TwilightCouncil.png":
 {
 	"frame": {"x":1292,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1392,7 +1392,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"UltraliskCavern.png":
+"Ultralisk.png":
 {
 	"frame": {"x":1368,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1400,7 +1400,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"VehicleWeapons1.png":
+"UltraliskCavern.png":
 {
 	"frame": {"x":1444,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1408,7 +1408,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"VehicleWeapons2.png":
+"VehicleWeapons1.png":
 {
 	"frame": {"x":1520,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1416,7 +1416,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"VehicleWeapons3.png":
+"VehicleWeapons2.png":
 {
 	"frame": {"x":1596,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1424,7 +1424,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Viking.png":
+"VehicleWeapons3.png":
 {
 	"frame": {"x":1672,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1432,7 +1432,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Viper.png":
+"Viking.png":
 {
 	"frame": {"x":1748,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1440,7 +1440,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"VoidRay.png":
+"Viper.png":
 {
 	"frame": {"x":1824,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1448,7 +1448,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"WarpGate.png":
+"VoidRay.png":
 {
 	"frame": {"x":1900,"y":456,"w":76,"h":76},
 	"rotated": false,
@@ -1456,7 +1456,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"WarpPrism.png":
+"WarpGate.png":
 {
 	"frame": {"x":0,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1464,7 +1464,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"WeaponRefit.png":
+"WarpPrism.png":
 {
 	"frame": {"x":76,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1472,7 +1472,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"WidowMine.png":
+"WeaponRefit.png":
 {
 	"frame": {"x":152,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1480,7 +1480,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Zealot.png":
+"WidowMine.png":
 {
 	"frame": {"x":228,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1488,7 +1488,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergFlyerArmorsLevel1.png":
+"Zealot.png":
 {
 	"frame": {"x":304,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1496,7 +1496,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergFlyerArmorsLevel2.png":
+"ZergFlyerArmorsLevel1.png":
 {
 	"frame": {"x":380,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1504,7 +1504,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergFlyerArmorsLevel3.png":
+"ZergFlyerArmorsLevel2.png":
 {
 	"frame": {"x":456,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1512,7 +1512,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergFlyerWeaponsLevel1.png":
+"ZergFlyerArmorsLevel3.png":
 {
 	"frame": {"x":532,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1520,7 +1520,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergFlyerWeaponsLevel2.png":
+"ZergFlyerWeaponsLevel1.png":
 {
 	"frame": {"x":608,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1528,7 +1528,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergFlyerWeaponsLevel3.png":
+"ZergFlyerWeaponsLevel2.png":
 {
 	"frame": {"x":684,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1536,7 +1536,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergGroundArmorsLevel1.png":
+"ZergFlyerWeaponsLevel3.png":
 {
 	"frame": {"x":760,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1544,7 +1544,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergGroundArmorsLevel2.png":
+"ZergGroundArmorsLevel1.png":
 {
 	"frame": {"x":836,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1552,7 +1552,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergGroundArmorsLevel3.png":
+"ZergGroundArmorsLevel2.png":
 {
 	"frame": {"x":912,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1560,7 +1560,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"Zergling.png":
+"ZergGroundArmorsLevel3.png":
 {
 	"frame": {"x":988,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1568,7 +1568,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMeleeWeaponsLevel1.png":
+"Zergling.png":
 {
 	"frame": {"x":1064,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1576,7 +1576,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMeleeWeaponsLevel2.png":
+"ZergMeleeWeaponsLevel1.png":
 {
 	"frame": {"x":1140,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1584,7 +1584,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMeleeWeaponsLevel3.png":
+"ZergMeleeWeaponsLevel2.png":
 {
 	"frame": {"x":1216,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1592,7 +1592,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMissileWeaponsLevel1.png":
+"ZergMeleeWeaponsLevel3.png":
 {
 	"frame": {"x":1292,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1600,7 +1600,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMissileWeaponsLevel2.png":
+"ZergMissileWeaponsLevel1.png":
 {
 	"frame": {"x":1368,"y":532,"w":76,"h":76},
 	"rotated": false,
@@ -1608,9 +1608,17 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
 	"sourceSize": {"w":76,"h":76}
 },
-"ZergMissileWeaponsLevel3.png":
+"ZergMissileWeaponsLevel2.png":
 {
 	"frame": {"x":1444,"y":532,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"ZergMissileWeaponsLevel3.png":
+{
+	"frame": {"x":1520,"y":532,"w":76,"h":76},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
@@ -1623,6 +1631,6 @@
 	"format": "RGBA8888",
 	"size": {"w":1976,"h":608},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:a796ad53983b5eddc1b6f19a9a6fb119:d6019f6495bbb11c896e680cf52ec9f3:2fcf7cab5bceb9fd094c34672ec44a19$"
+	"smartupdate": "$TexturePacker:SmartUpdate:41ed1e11cbf83f8502f6175e3f88180c:221b9aaebc9844335f832472273d2941:2fcf7cab5bceb9fd094c34672ec44a19$"
 }
 }

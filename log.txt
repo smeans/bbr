@@ -1,0 +1,12 @@
+INFO:     Will watch for changes in these directories: ['D:\\Projects\\GitHub\\bbr']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [82304] using watchgod
+INFO:     Started server process [61396]
+INFO:uvicorn.error:Started server process [61396]
+INFO:     Waiting for application startup.
+INFO:uvicorn.error:Waiting for application startup.
+INFO:     Application startup complete.
+INFO:uvicorn.error:Application startup complete.
+INFO:     Shutting down
+INFO:uvicorn.error:Shutting down
+INFO:     Stopping reloader process [82304]
