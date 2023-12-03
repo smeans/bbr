@@ -1973,6 +1973,11 @@
     <template name="x-event-strip">
         <style>
             :host {
+                display: block;
+                position: relative;
+            }
+
+            main {
                 display: flex;
                 flex-direction: column;
             }
@@ -1996,6 +2001,16 @@
                 pointer-events: none;
             }
 
+            #countdown input {
+                width: 0px;
+                margin: 0;
+                padding: 0;                
+            }
+
+            #countdown input:checked ~ x-svg {
+                color: yellow;
+            }
+
             x-controls x-svg {
                 width: 1.3rem;
                 height: 1.3rem;
@@ -2006,19 +2021,44 @@
             #currentTick {
                 flex-grow: 1;
             }
+
+            #countdownOverlay {
+                display: none;
+            }
+
+            #countdownOverlay.active {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                user-select: none;
+            }
+
+            #countdownOverlay div {
+                font-size: 30cqh;
+                color: white;
+            }
         </style>
-        <x-controls id="controls">
-            <button id="play"><x-svg src="/s/svg/play.svg"></x-svg></button>
-            <button id="reset"><x-svg src="/s/svg/refresh.svg"></x-svg></button>
-            <label id="currentTime">00:00</label>
-            <input id="currentTick" type="range" min="0" max="0"/>
-            <x-svg src="/s/svg/clock.svg"></x-svg>
-            <input id="gameSpeed" type="range" min="6" max="14" step="2" value="14"/>
-            <x-svg src="/s/svg/zoomin.svg"></x-svg>
-            <input id="ppt" type="range" min="6" max="20" step="1" value="10"/>
-        </x-controls>
-        <x-svg id="timeline" src="/s/svg/timeline.svg"></x-svg>
-        <canvas id="channels"></canvas>
+        <main>
+            <x-controls id="controls">
+                <button id="play"><x-svg src="/s/svg/play.svg"></x-svg></button>
+                <button id="reset"><x-svg src="/s/svg/refresh.svg"></x-svg></button>
+                <label id="countdown"><input id="showCountdown" type="checkbox" checked><x-svg src="/s/svg/countdown.svg"></x-svg></label>
+                <label id="currentTime">00:00</label>
+                <input id="currentTick" type="range" min="0" max="0"/>
+                <x-svg src="/s/svg/clock.svg"></x-svg>
+                <input id="gameSpeed" type="range" min="6" max="14" step="2" value="14"/>
+                <x-svg src="/s/svg/zoomin.svg"></x-svg>
+                <input id="ppt" type="range" min="6" max="20" step="1" value="10"/>
+            </x-controls>
+            <x-svg id="timeline" src="/s/svg/timeline.svg"></x-svg>
+            <canvas id="channels"></canvas>
+        </main>
+        <div id="countdownOverlay" open><div id="countdownTime">3</div></div>
         <script>
             const TICK = 0;
             const VERB = 1;
@@ -2040,6 +2080,7 @@
                     this._seeking = false;
                     this._connected = false;
                     this._ppt = 1.0;
+                    this._countdownTime = 6.0;
                     this._baseSpriteSize = Object.values(spriteData.frames)[0].frame.w;
 
                     this._sprites = new Image();
@@ -2051,6 +2092,13 @@
                     this._sprites.src = "/s/images/spritedata.png?v=5";
 
                     this.g.play.addEventListener('click', (e) => {
+                        if (!this._playing && this.showCountdown
+                                && !this.currentTick) {
+                            this._checkStartCountdown();
+
+                            return;
+                        }
+
                         this._playing ? this.pause() : this.play();
                     });
 
@@ -2090,6 +2138,22 @@
 
                 disconnectedCallback() {
                     this._connected = false;
+                }
+
+                get showCountdown() {
+                    return this.g.showCountdown.checked;
+                }
+
+                set showCountdown(newShowCountdown) {
+                    this.g.showCountdown.checked = newShowCountdown;
+                }
+
+                get inCountdown() {
+                    return this.g.countdownOverlay.classList.contains('active');
+                }
+
+                set inCountdown(newInCountdown) {
+                    this.g.countdownOverlay.classList.toggle('active', newInCountdown);
                 }
 
                 get gameSpeed() {
@@ -2196,6 +2260,34 @@
                 stop() {
                     this._playing = false;
                     this._pos = 0.0;
+                }
+
+                _checkStartCountdown() {
+                    if (this.inCountdown) {
+                        return;
+                    }
+
+                    this.inCountdown = true;
+
+                    const startTime = Date.now();
+
+                    const doCountdown = () => {
+                        const rt = this._countdownTime - (Date.now() - startTime)/1000.0;
+
+                        if (rt < 0) {
+                            this.inCountdown = false;
+
+                            this.play();
+
+                            return;
+                        }
+
+                        this.g.countdownTime.innerText = Math.round(rt);
+
+                        setTimeout(doCountdown, 30);
+                    }
+
+                    doCountdown();
                 }
 
                 _tickLoop() {

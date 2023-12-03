@@ -1,3 +1,4 @@
 fastapi
 sc2reader
 python-multipart
+jinja2
